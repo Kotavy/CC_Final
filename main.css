@@ -1,0 +1,99 @@
+/* Text styles: */
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.3em; /* ems are a relative font size */
+  text-align: left;
+  margin-left: 5%;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.15em;
+  text-align: left;
+  margin-left: 7%;
+}
+
+p {
+  background-color: rgb(220,220,220);
+  color: black;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;
+  text-align: justify;
+  text-indent: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Body style: */
+body {
+  font-size: 100%;
+  background-color: rgb(250,250,250);
+}
+
+/* Horizontal rule style */
+hr {
+  margin-top: 1em;
+  border-style: inset;
+  border-width: 1px;
+  height: 2px;
+  background: teal;
+}
+
+/* List Element style */
+li {
+  margin-top: 0.3em;
+  margin-left: 3%;
+  list-style-type: circle;
+  font-family: "Lucide Console", Monaco, monospace;
+  font-size: 1em;
+}
+
+/* Link states: */ /* NOTE: hover must come after link and visited, and active must come after hover. */
+a:link {
+  /* Default state */
+  color: rgb(12,53,71);
+}
+
+a:visited {
+  /* Visited link */
+  color: purple;
+  text-decoration: none;
+}
+
+a:focus {
+  /* Tabbed links */
+  color: rgb(109,149,149);
+}
+
+a:hover {
+  /* Cursor hover-over */
+  color: rgb(129,209,209);
+}
+
+a:active {
+  /* While mouse is clicked */
+  color: rgb(70,167,174);
+  opacity: 0.3;
+}
+
+/* Heading bar style class */
+a.heading {
+  color: teal;
+  padding: 10px 15px;
+  border: white;
+  border-radius: 0.5em;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.heading:hover, a.heading:active {
+  background-color: teal;
+  color: white;
+}
+
+a.heading:active {
+  background-color: rgb(70,167,174);
+}

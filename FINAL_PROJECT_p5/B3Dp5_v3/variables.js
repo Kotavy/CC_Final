@@ -7,7 +7,7 @@ var areaHeight = 800;
 var brWidth = 100;
 var brHeight = brWidth/3;
 var columns = areaWidth/brWidth;
-var rows = (areaHeight/12)/brHeight;
+var rows = (areaHeight/4)/brHeight;
 
 // Gameplay
 var score = 0;
